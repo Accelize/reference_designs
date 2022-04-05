@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:lgdn="http://www.algodone.com/XMLSchema/SPIRIT/1685-2009-VE">
+    <spirit:vendor>UNKNOWN_DESIGN</spirit:vendor>
+    <spirit:library>UNKNOWN_DESIGN</spirit:library>
+    <spirit:name>UNKNOWN_DESIGN</spirit:name>
+    <spirit:version>UNKNOWN_DESIGN</spirit:version>
+    <spirit:vendorExtensions>
+        <lgdn:designLicenseParams>
+            <lgdn:licenses>
+                <lgdn:license>618B1BAED8E37E6232BBB300010700009A99388BA4E6EE6B3596DDB1BC9B0DA9FD68CB66FD68CB66FD68CB66FD68CB6692894FD631147D23DB2A777C79F47C77E377C6206D273B68C0E32CBD7C1464EE46C8A07C33E876EA1B815F97501355A8F0BDB720B1C7AA9AFB8852A9D7A5367DA9DE7634E9117DDDC95F499CA6BA115472E2AC757544AD385E1E89BE38E44D9F3B33EED9A63367FF59D9C2A1E11FF1AF157185D2D49A82629A64AB12F9A2818F</lgdn:license>
+            </lgdn:licenses>
+            <lgdn:licenseConfig>
+                <lgdn:version>070000</lgdn:version>
+                <lgdn:type>test</lgdn:type>
+                <lgdn:encoding>hexadecimal</lgdn:encoding>
+            </lgdn:licenseConfig>
+        </lgdn:designLicenseParams>
+    </spirit:vendorExtensions>
+</spirit:design>
