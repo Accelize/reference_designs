@@ -14,15 +14,6 @@
 `protect encrypt_agent_info="Synplify encryptP1735.pl Version 1.1"
 
 `protect encoding=(enctype="base64", line_length=76, bytes=256)
-`protect key_keyowner="Xilinx", key_keyname="xilinx_2016_05", key_method="rsa"
-`protect key_block
-Siwwz/JYRaTTiHFr+Y2BlW+oz4j4sb6x7v8hBRhTFryh7G0sxj/k4FVswINM91mitojerQZjzr2R
-cLdxf1kOmxTWqaF0DcTRJ0Uh28nUEDQ8keeGqM9ltJ/9+XWn45u0ZxdIQaK98b+v09BBcZmr/piv
-YIQpEEJXQiS8+2xMBVdpGJIXme69oLFedjIbF3plC9We+0xvTtmyWOIG3Jk4iP6Gd0NU0NWj7+aS
-fPs2LPe+uI8Hrvl2CcnXf9l7TfU6KXzHRQZrZxJ+sNtzMeMq+DG1pOnViFrrJpPr9eNCVekKIO7J
-g4Y7HW2IJLg7uV7if8SUZSjsFBtmjBR2Gb+02w==
-
-`protect encoding=(enctype="base64", line_length=76, bytes=256)
 `protect key_keyowner="Xilinx", key_keyname="xilinxt_2017_05", key_method="rsa"
 `protect key_block
 LweKQPoQX1cws2X66icOU2qX0t1yiMUqwFMhyEaZpjcS+yGZd0eG+904THRykHL6kFj6JBzmGn5z

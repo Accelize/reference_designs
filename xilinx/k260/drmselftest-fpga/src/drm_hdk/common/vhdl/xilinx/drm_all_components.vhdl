@@ -14,15 +14,6 @@
 `protect encrypt_agent_info="Synplify encryptP1735.pl Version 1.1"
 
 `protect encoding=(enctype="base64", line_length=76, bytes=256)
-`protect key_keyowner="Xilinx", key_keyname="xilinx_2016_05", key_method="rsa"
-`protect key_block
-IHSBEaQtVt4FSbSgqeAWnbIPQqxVwsftKqOP1AXl6XR/2oH9NlrK84ylipQcJtf/VR9e7P1wUZmS
-F+sZMhkbEfWVqkBp+30cfo7Q0Go1IHvebBNKelQj1S2wcNM7j9FhGYAU1ee48iZjOTbepdxw7r+5
-3GKMD1IoCueFBbRp13WbHlm2O45bVJ37tEV00JgyyUFRzDocDGpvW7pH3C3u5e3RS4tM/owuHNqz
-DMfUJRciZ3eto40QANYUjr1v1Xz8Azszq5h2xbaBaIMsDa6QciIKpovCm6WpGyaleHZmVkFPTwwH
-LYr4KBD+i8fJwrZmKDpUdzgQ8Wec4kUhl4szFA==
-
-`protect encoding=(enctype="base64", line_length=76, bytes=256)
 `protect key_keyowner="Xilinx", key_keyname="xilinxt_2017_05", key_method="rsa"
 `protect key_block
 ZojMyBwyjW9K1UbPRHunalcXYMlCwZOxR/uak3DfdnnTV+JyJyG+Q/nd+JRkRZSCb8vUakrY/zTa
@@ -15378,22 +15369,6 @@ G5wTY/7pG92kb1+xDLvnPq8qkwhgHooC8caeTjebLyYQEscTRqibPsTq5ZZDEQaPkx6WdNQ0qlBE
 `protect control child_visibility = "delegated"
 `protect control decryption=(activity==simulation) ? "false" : "true"
 `protect end_commonblock
-`protect begin_toolblock
-`protect rights_digest_method="sha256"
-`protect key_keyowner = "Xilinx", key_keyname= "xilinx_2016_05", key_method = "rsa", key_block
-llIaOLbuybqQ1JQ3WV9KZwiIlSa46gwOnWdIZzWkqoorsM/I5ukV/lYcWsxKTCrKWtBBWu+YZRCL
-yoTwafDix8UULWynT2mmrIbsPP16j5zpiw7unt5Cw/BBgY177sZW+Oi6f1Vs/mxe0/BLLXNG4CpI
-qD5vtR1L6Pi+W5koxe714cRITcAOP6AxPz8RkMlcZvTO4Lz9rblIt+7ZT25hqRh4xBYxVbVeO094
-5qgh5gTZSKRb/LqyqOy7WHVfnrkiDOqpNCTlh5fiHoeaw9XT2IdKiTryIAtLmJObVdPsSl5JBkLw
-soCSd3u/VAba3mtfG1tnZQ9a6tLM6okGx8RMcA==
-
-`protect control xilinx_configuration_visible = "false"
-`protect control xilinx_enable_modification = "false"
-`protect control xilinx_enable_probing = "false"
-`protect control xilinx_enable_netlist_export = "false"
-`protect control xilinx_enable_bitstream = "true"
-`protect control decryption=(xilinx_activity==simulation) ? "false" : "true"
-`protect end_toolblock="by3h6I7oY1J0GOpdkEkCp/E40J0Hho2eVANO/jF+Mp4="
 `protect begin_toolblock
 `protect rights_digest_method="sha256"
 `protect key_keyowner = "Xilinx", key_keyname= "xilinxt_2017_05", key_method = "rsa", key_block
