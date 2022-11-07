@@ -1,0 +1,4 @@
+To build the base platform run
+> make platform
+
+Platfrom will be available at xilinx_k26_base_starter_kit_202210_1

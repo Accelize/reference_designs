@@ -8,7 +8,7 @@ VTS_PLATFORM=kv260_vcuDecode_vmixDP
 
 OUTPUT_DIR=xclbin
 DRM_XO=$(OUTPUT_DIR)/drm.xo
-DESIGN_OBJ=$(OUTPUT_DIR)/xlz-drmselftest-fpga.xclbin
+DESIGN_OBJ=$(OUTPUT_DIR)/accelize-drmselftest-firmware.xclbin
 VTS_KERNELS = drmselftest input output
 VTS_KERNELS_OBJS = $(VTS_KERNELS:%=$(OUTPUT_DIR)/%.xo)
 VTS_CFG_FILE=drmselftest.ini
@@ -21,8 +21,8 @@ ifndef XILINX_VITIS
 	$(error You have to define path to Vitis in XILINX_VITIS variable)
 endif
 ifndef PLATFORM_REPO_PATHS
-	$(info Try: export PLATFORM_REPO_PATHS={your_path_to_kria-vitis-platforms}/kv260/platforms/xilinx_kv260_vcuDecode_vmixDP_202210_1)
-	$(info Or:  export PLATFORM_REPO_PATHS={your_path_to_kria-vitis-platforms}/kr260/platforms/xilinx_kr260_tsn_rs485pmod_202210_1)
+	$(info Try: export PLATFORM_REPO_PATHS=/home/ubuntu/Documents/kria-vitis-platforms/kv260/platforms/xilinx_kv260_vcuDecode_vmixDP_202210_1)
+	$(info Or:  export PLATFORM_REPO_PATHS=/home/ubuntu/Documents/kria-vitis-platforms/kr260/platforms/xilinx_kr260_tsn_rs485pmod_202210_1)
 	$(error You have to define path to platforms in PLATFORM_REPO_PATHS variable)
 endif
 
